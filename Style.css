@@ -1,0 +1,133 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    text-align: center;
+}
+.profile{
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+}
+#welcome{
+    position: absolute;
+    color:white;
+    bottom: 0;
+    background: linear-gradient(#ADD8E6 0%, #800080 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    
+}
+h1{
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: cursive;
+    font-weight: 300;
+    
+}
+h2{
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: cursive;
+    font-weight: 300; 
+}
+#name{
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: monospace;
+    
+}
+#bio{
+    padding: 50px;
+    text-align: center;
+    font-size: 42px;height: 500px;
+            
+}
+.line{
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+    
+}
+p{
+    max-width: 500px;
+    margin: 25px auto;
+    font-size: 17px;
+    line-height: 1.3;
+    font-family: 'Lobster', cursive;
+    
+}
+.parallax-inner{
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    
+}
+#My_Favourite_Videos{
+    background: linear-gradient(#FFFF00 0%, #FFA500 100%);
+    text-align: center;
+    font-size: 40px;
+        
+}
+iframe{
+    margin: 20px;
+    padding: 10px;
+}
+#wiki{
+    height: 600px;
+    width: 900px;
+    margin: 20px;
+    padding: 10px;    
+}
+#FavouritePlayer{
+    background: linear-gradient(#90EE90 0%, #ADD8E6 100%);
+    text-align: center;
+    
+}
+#My_Links{
+    background: linear-gradient(#FEF9E7 0%, #AF7AC5 100%);
+    text-align: center;
+}
+a{
+    margin: 20px;
+    text-decoration: none;
+}
+#Apps{
+    background: linear-gradient(#FFFF00 0%, #FFA500 100%);
+    text-align: center;
+}
+#Games{
+    background: linear-gradient(#FFFF00 0%, #FFA500 100%);
+    text-align: center;
+}
+#Games img{
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+    transition:  transform.2s;
+}
+#Games img:hover{
+    transform: scale(0.9);
+}
+#ChatBot{
+    text-align: center;
+    background-color: beige;
+}
+.contact1 h3{
+    display: inline;
+}
+.contact1 a{
+    color: white;
+    text-shadow: none;
+    font-size: 30px;
+}
+#contact iframe{
+    width: 100%;     
+}
+#contact{
+    background-color: red;
+}
